@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+ <PlasmaGraphics>
+  1
+ </PlasmaGraphics>
+ 
+ <Seal>
+  0E 00 00 00 78 87 81 6D BD 3D 2F C7 6E 99 AC 39 28 D1
+ </Seal>
+
+ 
+ <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   Mesh
+  </SmoothMeshShape.wname>
+  <SmoothMeshShape.face>
+   [0, 4, 1] <!--top-->
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.face>
+   [1, 4, 2] <!--right-->
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.face>
+   [2, 4, 3] <!--bottom-->
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.face>
+   [3, 4, 0] <!--left-->
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.0, 0.0, <!--top left-->
+	 200.0, 0.0, <!--top right-->
+	 200.0, 200.0, <!--bottom right-->
+	 0.0, 200.0, <!--bottom left-->
+	 100.0, 100.0] <!--center-->
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [1.0, 1.0, 1.0, 1.0, <!--top left-->
+	 1.0, 1.0, 1.0, 1.0, <!--top right-->
+	 1.0, 1.0, 1.0, 1.0, <!--bottom right-->
+	 1.0, 1.0, 1.0, 1.0, <!--bottom left-->
+	 0.0, 0.0, 0.0, 1.0] <!--center-->
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexColors>
+
+  <SmoothMeshShape.subdivisions>
+   6
+  </SmoothMeshShape.subdivisions>
+  <SmoothMeshShape.smoothWeight>
+   0.5
+  </SmoothMeshShape.smoothWeight>
+ </SmoothMeshShape>
+
+ <Node>
+  <!--root node-->
+  <Node.child>
+   1 
+  </Node.child>
+ </Node>
+ 
+ <Node>
+  <Node.wname>
+  FlameOuter
+  </Node.wname>
+  <Node.shape>
+   0
+  </Node.shape>
+ </Node>
+
+ 
+ <pageWidth>
+  1000.0
+ </pageWidth>
+ <pageHeight>
+  1000.0
+ </pageHeight>
+ <dpi>
+  72.0
+ </dpi>
+ <unit>
+  0.0
+ </unit>
+ <pageColor>
+  [1.0, 1.0, 1.0, 1.0]
+ </pageColor>
+</root>
