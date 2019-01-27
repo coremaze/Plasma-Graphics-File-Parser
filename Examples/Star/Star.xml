@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+ <PlasmaGraphics>
+  1
+ </PlasmaGraphics>
+ 
+ <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   StarCurved
+  </SmoothMeshShape.wname>
+  
+  <!--points-->
+  <SmoothMeshShape.face>
+   [5, 0, 1]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [1, 6, 7]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [7, 2, 3]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [3, 8, 9]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [9, 4, 5]
+  </SmoothMeshShape.face>
+  
+  <!--pentagon-->
+  <SmoothMeshShape.face>
+   [5, 1, 7, 3, 9]
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.vertexFlags>
+   [0, 1, 
+    0, 1,
+	0, 1, 
+	0, 1,
+	0, 1]
+  </SmoothMeshShape.vertexFlags>
+ 
+  
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    10
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [190.2113032590307, 61.803398874989476, 
+    44.902797657958544, 61.803398874989476, 
+    -190.2113032590307, 61.803398874989504, 
+    -72.6542528005361, -23.606797749978927, 
+    117.55705045849459, -161.8033988749895, 
+    72.65425280053609, -23.606797749978984, 
+    0.0, 200.0, 
+    -44.90279765795853, 61.80339887498949, 
+    -117.55705045849464, -161.80339887498945, 
+    0.0, -76.39320225002103]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    10
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.878, 0.780, 0.082,  1.0, <!--left point-->
+     0.964, 0.862, 0.137,  1.0, <!--upper left indent-->
+     0.878, 0.780, 0.082,  1.0, <!--right point-->
+     0.878, 0.666, 0.082,  1.0, <!--lower right indent-->
+     0.337, 0.258, 0.043,  1.0, <!--lower left point-->
+     0.878, 0.666, 0.082,  1.0, <!--lower left indent-->
+     1.0, 1.0, 1.0,  1.0, <!--upper point-->
+     0.964, 0.862, 0.137,  1.0, <!--upper right indent-->
+     0.337, 0.258, 0.043,  1.0, <!--lower right point-->
+     0.576, 0.439, 0.062,  1.0] <!--lower indent-->
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexColors>
+
+  <SmoothMeshShape.subdivisions>
+   4
+  </SmoothMeshShape.subdivisions>
+  <SmoothMeshShape.smoothWeight>
+   0.5
+  </SmoothMeshShape.smoothWeight>
+ </SmoothMeshShape>
+ 
+ <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   StarSharp
+  </SmoothMeshShape.wname>
+  
+  <!--points-->
+  <SmoothMeshShape.face>
+   [5, 0, 1]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [1, 6, 7]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [7, 2, 3]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [3, 8, 9]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [9, 4, 5]
+  </SmoothMeshShape.face>
+  
+  <!--pentagon-->
+  <SmoothMeshShape.face>
+   [5, 1, 7, 3, 9]
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.vertexFlags>
+   [1, 1, 
+    1, 1,
+	1, 1, 
+	1, 1,
+	1, 1]
+  </SmoothMeshShape.vertexFlags>
+ 
+  
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    10
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [190.2113032590307, 61.803398874989476, 
+    44.902797657958544, 61.803398874989476, 
+    -190.2113032590307, 61.803398874989504, 
+    -72.6542528005361, -23.606797749978927, 
+    117.55705045849459, -161.8033988749895, 
+    72.65425280053609, -23.606797749978984, 
+    0.0, 200.0, 
+    -44.90279765795853, 61.80339887498949, 
+    -117.55705045849464, -161.80339887498945, 
+    0.0, -76.39320225002103]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    10
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.878, 0.780, 0.082,  1.0, <!--left point-->
+     0.964, 0.862, 0.137,  1.0, <!--upper left indent-->
+     0.878, 0.780, 0.082,  1.0, <!--right point-->
+     0.878, 0.666, 0.082,  1.0, <!--lower right indent-->
+     0.337, 0.258, 0.043,  1.0, <!--lower left point-->
+     0.878, 0.666, 0.082,  1.0, <!--lower left indent-->
+     1.0, 1.0, 1.0,  1.0, <!--upper point-->
+     0.964, 0.862, 0.137,  1.0, <!--upper right indent-->
+     0.337, 0.258, 0.043,  1.0, <!--lower right point-->
+     0.576, 0.439, 0.062,  1.0] <!--lower indent-->
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexColors>
+
+  <SmoothMeshShape.subdivisions>
+   4
+  </SmoothMeshShape.subdivisions>
+  <SmoothMeshShape.smoothWeight>
+   0.5
+  </SmoothMeshShape.smoothWeight>
+ </SmoothMeshShape>
+ 
+ <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   Shadow1
+  </SmoothMeshShape.wname>
+
+  <SmoothMeshShape.face>
+   [0, 4, 1]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [1, 4, 2]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [2, 4, 3]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [3, 4, 0]
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.vertexFlags>
+   [0, 0, 0, 0, 0]
+  </SmoothMeshShape.vertexFlags>
+ 
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [-200, -200,
+	  200, -200,
+	  200,  200,
+	 -200,  200,
+	  0,    0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.0, 0.0, 0.0, 0.0, 
+	 0.0, 0.0, 0.0, 0.0, 
+	 0.0, 0.0, 0.0, 0.0, 
+	 0.0, 0.0, 0.0, 0.0,
+	 0.0, 0.0, 0.0, 1.0] <!--shadow center-->
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexColors>
+
+  <SmoothMeshShape.subdivisions>
+   4
+  </SmoothMeshShape.subdivisions>
+  <SmoothMeshShape.smoothWeight>
+   0.5
+  </SmoothMeshShape.smoothWeight>
+ </SmoothMeshShape>
+ 
+ <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   Shadow2
+  </SmoothMeshShape.wname>
+
+  <SmoothMeshShape.face>
+   [0, 4, 1]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [1, 4, 2]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [2, 4, 3]
+  </SmoothMeshShape.face>
+  <SmoothMeshShape.face>
+   [3, 4, 0]
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.vertexFlags>
+   [0, 0, 0, 0, 0]
+  </SmoothMeshShape.vertexFlags>
+ 
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [-200, -200,
+	  200, -200,
+	  200,  200,
+	 -200,  200,
+	  0,    0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.0, 0.0, 0.0, 0.0, 
+	 0.0, 0.0, 0.0, 0.0, 
+	 0.0, 0.0, 0.0, 0.0, 
+	 0.0, 0.0, 0.0, 0.0,
+	 0.0, 0.0, 0.0, 1.0] <!--shadow center-->
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexColors>
+
+  <SmoothMeshShape.subdivisions>
+   4
+  </SmoothMeshShape.subdivisions>
+  <SmoothMeshShape.smoothWeight>
+   0.5
+  </SmoothMeshShape.smoothWeight>
+ </SmoothMeshShape>
+ 
+
+ <Transformation>
+  <Transformation.wname/>
+  <Transformation.translation>
+   <Attribute.frame>
+    [200.0, 0.0]
+   </Attribute.frame>
+  </Transformation.translation>
+  <Transformation.rotation>
+   <Attribute.frame>
+    [0.0, 0.0, 180.0] <!--I got the coordinates for the star off the internet, and it's upside down. This flips it.-->
+   </Attribute.frame>
+  </Transformation.rotation>
+ </Transformation>
+ 
+ <Transformation>
+  <Transformation.wname/>
+  <Transformation.translation>
+   <Attribute.frame>
+    [-200.0, 0.0]
+   </Attribute.frame>
+  </Transformation.translation>
+  <Transformation.rotation>
+   <Attribute.frame>
+    [0.0, 0.0, 180.0] <!--I got the coordinates for the star off the internet, and it's upside down. This flips it.-->
+   </Attribute.frame>
+  </Transformation.rotation>
+ </Transformation>
+ 
+ <Transformation>
+  <Transformation.wname/>
+  <Transformation.translation>
+   <Attribute.frame>
+    [-200.0, 150.0] <!--move shadow under the left star-->
+   </Attribute.frame>
+  </Transformation.translation>
+  <Transformation.rotation>
+   <Attribute.frame>
+    [75.0, 0.0, 0] <!--Squish the circle vertically-->
+   </Attribute.frame>
+  </Transformation.rotation>
+ </Transformation>
+ 
+ <Transformation>
+  <Transformation.wname/>
+  <Transformation.translation>
+   <Attribute.frame>
+    [200.0, 150.0] <!--move shadow under the right star-->
+   </Attribute.frame>
+  </Transformation.translation>
+  <Transformation.rotation>
+   <Attribute.frame>
+    [75.0, 0.0, 0] <!--Squish the circle vertically-->
+   </Attribute.frame>
+  </Transformation.rotation>
+ </Transformation>
+ 
+ 
+ <Node>
+  <!--root node-->
+  <Node.child>
+   4 <!--Shadow2-->
+  </Node.child>
+  <Node.child>
+   1 <!--StarCurved-->
+  </Node.child>
+  <Node.child>
+   3 <!--Shadow1-->
+  </Node.child>
+  <Node.child>
+   2 <!--StarSharp-->
+  </Node.child>
+ </Node>
+ 
+ <Node>
+  <Node.wname>
+  StarCurved
+  </Node.wname>
+  <Node.shape>
+   0
+  </Node.shape>
+  <Node.transformation>
+   0 
+  </Node.transformation>
+ </Node>
+ 
+ <Node>
+  <Node.wname>
+  StarSharp
+  </Node.wname>
+  <Node.shape>
+   1
+  </Node.shape>
+  <Node.transformation>
+   1 
+  </Node.transformation>
+ </Node>
+ 
+ <Node>
+  <Node.wname>
+  Shadow1
+  </Node.wname>
+  <Node.shape>
+   2
+  </Node.shape>
+  <Node.transformation>
+   2
+  </Node.transformation>
+ </Node>
+
+ <Node>
+  <Node.wname>
+  Shadow2
+  </Node.wname>
+  <Node.shape>
+   3
+  </Node.shape>
+  <Node.transformation>
+   3
+  </Node.transformation>
+ </Node>
+ 
+ <pageWidth>
+  1000.0
+ </pageWidth>
+ <pageHeight>
+  1000.0
+ </pageHeight>
+ <dpi>
+  72.0
+ </dpi>
+ <unit>
+  0.0
+ </unit>
+ <pageColor>
+  [1.0, 1.0, 1.0, 1.0]
+ </pageColor>
+</root>
