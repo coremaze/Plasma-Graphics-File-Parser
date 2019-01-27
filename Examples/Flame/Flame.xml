@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+ <PlasmaGraphics>
+  1
+ </PlasmaGraphics>
+ 
+ <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   FlameOuter
+  </SmoothMeshShape.wname>
+  <SmoothMeshShape.face>
+   [0, 1, 2, 3, 4]
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.vertexFlags>
+   [0,
+   
+    1, <!--Makes the tip of the flame pointy-->
+	
+	0,
+	0,
+	0]
+  </SmoothMeshShape.vertexFlags>
+
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [250.0, -500.0,
+	
+	200.0, -750.0, <!--tip-->
+	
+	800.0, 100.0, <!--base-->
+	300.0, 300.0,
+	-100.0, 100.0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+   <!--RGBA-->
+    [0.933, 0.556, 0.388, 1.0, 
+	
+	0.901, 0.223, 0.078, 1.0, 
+	
+	0.901, 0.650, 0.078, 1.0, 
+	1, 1, 1, 1.0, 
+	0.901, 0.650, 0.078, 1.0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexColors>
+
+  <SmoothMeshShape.subdivisions>
+   6
+  </SmoothMeshShape.subdivisions>
+  <SmoothMeshShape.smoothWeight>
+   0.58578643762
+  </SmoothMeshShape.smoothWeight>
+ </SmoothMeshShape>
+ 
+ <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   FlameMiddle
+  </SmoothMeshShape.wname>
+
+  <SmoothMeshShape.face>
+   [0, 1, 2, 3, 4]
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.vertexFlags>
+   [0,
+   
+    1, <!--Makes the tip of the flame pointy-->
+	
+	0,
+	0,
+	0]
+  </SmoothMeshShape.vertexFlags>
+
+
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [257.5, -375.0, 
+	
+	255.0, -600.0,
+	
+	670.0, 115.0, 
+	295.0, 265.0, 
+	-5.0, 115.0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+   <!--RGBA-->
+    [0.964, 0.698, 0.215, 0.2, 
+	
+	0.964, 0.933, 0.215, 0.0, 
+	
+	0.964, 0.858, 0.137, 0.5, 
+	0.972, 0.933, 0.666, 0.7,
+	0.964, 0.858, 0.137, 0.5]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexColors>
+
+  <SmoothMeshShape.subdivisions>
+   6
+  </SmoothMeshShape.subdivisions>
+  <SmoothMeshShape.smoothWeight>
+   0.58578643762
+  </SmoothMeshShape.smoothWeight>
+ </SmoothMeshShape>
+ 
+ <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   FlameInner
+  </SmoothMeshShape.wname>
+  <SmoothMeshShape.face>
+   [0, 1, 2, 3, 4]
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.vertexFlags>
+   [0,
+   
+    1, <!--Makes the tip of the flame pointy-->
+	
+	0,
+	0,
+	0]
+  </SmoothMeshShape.vertexFlags>
+
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [263.125, -236.25, 
+	
+	295.0, -405.0,  
+	
+	572.5, 131.25, 
+	291.25, 243.75,
+	66.25, 131.25]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    5
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+   <!--RGBA-->
+    [1.0, 1.0, 1.0, 0.2, 
+	
+	1.0, 1.0, 1.0, 0.0, 
+	
+	1.0, 1.0, 1.0, 0.5,  
+	1.0, 1.0, 1.0, 0.7, 
+	1.0, 1.0, 1.0, 0.5]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexColors>
+
+  <SmoothMeshShape.subdivisions>
+   6
+  </SmoothMeshShape.subdivisions>
+  <SmoothMeshShape.smoothWeight>
+   0.58578643762
+  </SmoothMeshShape.smoothWeight>
+ </SmoothMeshShape>
+
+ <Node>
+  <!--root node-->
+  <Node.child>
+   1 <!--outer-->
+  </Node.child>
+  <Node.child>
+   2 <!--middle-->
+  </Node.child>
+  <Node.child>
+   3 <!--inner-->
+  </Node.child>
+ </Node>
+ 
+ <Node>
+  <Node.wname>
+  FlameOuter
+  </Node.wname>
+  <Node.shape>
+   0
+  </Node.shape>
+ </Node>
+ 
+ 
+ <Node>
+  <Node.wname>
+  FlameMiddle
+  </Node.wname>
+  <Node.shape>
+   1
+  </Node.shape>
+ </Node>
+ 
+ <Node>
+  <Node.wname>
+  FlameInner
+  </Node.wname>
+  <Node.shape>
+   2
+  </Node.shape>
+ </Node>
+ 
+ <pageWidth>
+  1000.0
+ </pageWidth>
+ <pageHeight>
+  1000.0
+ </pageHeight>
+ <dpi>
+  72.0
+ </dpi>
+ <unit>
+  0.0
+ </unit>
+ <pageColor>
+  [1.0, 1.0, 1.0, 1.0]
+ </pageColor>
+</root>
