@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+ <PlasmaGraphics>
+  1
+ </PlasmaGraphics>
+ <Texture>
+  <Texture.wname>
+   star1.png
+  </Texture.wname>
+  <Texture.id>
+   0
+  </Texture.id>
+  <Texture.format.pixelFormat>
+   1
+  </Texture.format.pixelFormat>
+  <Texture.format.minFilter>
+   0
+  </Texture.format.minFilter>
+  <Texture.format.maxFilter>
+   0
+  </Texture.format.maxFilter>
+  <Texture.format.horizontalWrap>
+   0
+  </Texture.format.horizontalWrap>
+  <Texture.format.verticalWrap>
+   0
+  </Texture.format.verticalWrap>
+  <Texture.width>
+   50
+  </Texture.width>
+  <Texture.height>
+   50
+  </Texture.height>
+  <Texture.compressedPixels>
+  <!--This is a zlib stream of pixel data. The first 4 bytes are the length of the data.-->
+   6E 01 00 00 78 9C ED 97 4D 6E 83 30 10 46 E7 38 D9 F9 08 3D 43 4F D0 23 70 04 1F 21 DB EC 72 04 1F 89 5D A5 56 29 5E A4 95 AA 2E E2 CE 18 9B 82 5B 23 40 AA 4D D5 EF 59 9F C4 8F 21 F3 20 19 02 11 00 00 00 00 00 00 00 00 00 00 F8 E7 68 4E CB 71 21 6D D8 F6 97 38 D3 57 FD 69 CE 15 EB 5A C3 9C C3 5E 5D 14 C7 50 A6 DE A6 69 5C 44 96 73 F3 C2 39 EE 2A D4 2F CC 5E F7 E8 70 B2 27 9F 05 2E 35 EE 93 5E EA 70 1F C6 0A 97 92 BD 60 E8 43 52 97 B5 D6 A5 8C 1D 52 97 31 72 6C E2 D6 16 F4 18 3E 37 57 F3 D2 11 DD 68 7A 4F AA 78 6C 75 88 63 0F 1E F2 BD 90 6C 75 88 C7 57 F2 98 F4 DA 58 CB C1 1E 56 25 E3 60 0A 7A C8 73 C3 FE E4 C2 BF D2 45 C9 38 D8 70 EE 92 4C 5C 62 DF 5A E3 91 F4 A9 1A 0E 91 A1 FF 1A 63 9C BE 6A 47 8F BC FE CC B9 70 3A 8E 0D E9 C2 B6 27 F2 73 F4 AB F6 C7 8C 3C 4A F6 DB 94 49 DF 52 2F CA D1 1B F5 F9 20 BF 6E AC 71 A6 33 4E 5D 78 DF 3B 6F BF F6 91 7D 15 FB D4 AC 07 C9 B8 71 8D 5D 5F BF 20 D7 5C E2 97 A3 CF CD CF DC A5 47 FA 4C 97 DA 95 52 C3 7E 59 8E 3E E3 67 F9 4E 3C B2 FF 75 37 A4 64 BF 4D F9 D6 7F 37 A6 66 AF 8A E4 DE 41 A4 FF 1C 39 0F 21 47 9A BE E7 8E EF 43 6D 07 00 00 00 BF CC 27 38 25 C7 4C
+  </Texture.compressedPixels>
+ </Texture>
+ 
+ <SmoothMeshShape>
+  <SmoothMeshShape.wname>
+   Mesh
+  </SmoothMeshShape.wname>
+  <SmoothMeshShape.face>
+   [0, 1, 2, 3]
+  </SmoothMeshShape.face>
+  
+  <SmoothMeshShape.vertexPositions>
+   <ArrayAttribute.size>
+    4
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.0, 0.0, <!--top left-->
+	 200.0, 0.0, <!--top right-->
+	 200.0, 200.0, <!--bottom right-->
+	 0.0, 200.0] <!--bottom left-->
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexPositions>
+  
+  <SmoothMeshShape.vertexColors>
+   <ArrayAttribute.size>
+    4
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [1.0, 1.0, 1.0, 1.0, <!--top left-->
+	 1.0, 1.0, 1.0, 1.0, <!--top right-->
+	 1.0, 1.0, 1.0, 1.0, <!--bottom right-->
+	 1.0, 1.0, 1.0, 1.0] <!--bottom left-->
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexColors>
+
+  <SmoothMeshShape.subdivisions>
+   0
+  </SmoothMeshShape.subdivisions>
+  
+  <SmoothMeshShape.texture>
+   <Attribute.frame>
+    [0] <!--texture id-->
+   </Attribute.frame>
+  </SmoothMeshShape.texture>
+  
+  <!--This section maps the texture to positions on the mesh-->
+  <SmoothMeshShape.vertexTexCoords>
+   <ArrayAttribute.size>
+    4
+   </ArrayAttribute.size>
+   <ArrayAttribute.frame>
+    [0.0, 0.0,
+	 1.0, 0.0,
+	 1.0, 1.0,
+	 0.0, 1.0]
+   </ArrayAttribute.frame>
+  </SmoothMeshShape.vertexTexCoords>
+  
+
+ </SmoothMeshShape>
+
+ <Node>
+  <!--root node-->
+  <Node.child>
+   1 
+  </Node.child>
+ </Node>
+ 
+ <Node>
+  <Node.wname>
+  Square
+  </Node.wname>
+  <Node.shape>
+   0
+  </Node.shape>
+ </Node>
+
+ 
+ <pageWidth>
+  1000.0
+ </pageWidth>
+ <pageHeight>
+  1000.0
+ </pageHeight>
+ <dpi>
+  72.0
+ </dpi>
+ <unit>
+  0.0
+ </unit>
+ <pageColor>
+  [1.0, 1.0, 1.0, 1.0]
+ </pageColor>
+</root>
