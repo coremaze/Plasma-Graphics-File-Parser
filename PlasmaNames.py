@@ -39,6 +39,8 @@ objectNames = (
         "SmoothMeshShape.strokeTextureContrast",
         "SmoothMeshShape.strokeTextureSaturation",
         "SmoothMeshShape.strokeTextureStretch",
+
+        "GenericShape",
         
         "TextShape",
         "TextShape.color",
@@ -95,6 +97,7 @@ UINT_TYPES = ('SmoothMeshShape.flags',
 LENGTH_PREFIXED_WSTRING_TYPES = ('TextShape.wfontName',
                                  'Widget.caption',
                                  'SmoothMeshShape.wname',
+                                 'GenericShape.wname',
                                  'TextShape.wname',
                                  'Transformation.wname',
                                  'Display.wname',
